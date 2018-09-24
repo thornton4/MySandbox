@@ -264,7 +264,7 @@ xp: 50
 - Not this one
 - Its this one
 - sqrt(24)
-- [the Spanish inquisition]
+- [The Spanish inquisition]
 
 `@hint`
 Its labeled...
@@ -283,4 +283,5 @@ msg1= "Incorrect ya goob"
 msg2="Never trust me"
 msg3="it wasnt rational to pick this"
 msg4="Nobody expects the spanish inquisition..."
+Ex().has_chosen(4, [msg1, msg2, msg3, msg4])
 ```
