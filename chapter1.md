@@ -61,7 +61,7 @@ success_msg("Some praise! Then reinforce a learning objective from the exercise.
 
 ---
 
-## Insert exercise title here
+## Variable names and means
 
 ```yaml
 type: NormalExercise
@@ -114,7 +114,7 @@ success_msg("Well Done!")
 
 ---
 
-## Insert exercise title here
+## some simple data frames
 
 ```yaml
 type: NormalExercise
@@ -172,6 +172,73 @@ means=c(mean.mpg,mean.hp,mean.qsec)
 ```{r}
 ex() %>% check_object("means") %>% check_equal()
 success_msg("Well Done! You have combined named vectors into 1 bigger vector")
+```
+
+
+---
+
+## remake fitting Galtons Height data
+
+```yaml
+type: NormalExercise
+key: 069b2bedc8
+xp: 100
+```
+
+The Galton data has already been read into a dataset called 
+*heights*. These data include the heights of 928 adult children *child_ht*, together with an index of their parents' height *parent_ht*. The video explored the distribution of the parents' height; in this assignment, we investigate the distribution of the heights of the adult children.
+
+`@instructions`
+- Define the height of an adult child as a local variable
+- Use the function mean() to calculate the mean and the function sd() to calculate the standard deviation
+-Use the normal approximation and the function pnorm() to determine the probability that a child's height is less than 72 inches.
+
+`@hint`
+Remember that we can reference a variable, say *var*, from a data set such as *heights*, as *heights$var*.
+
+`@pre_exercise_code`
+
+```{r}
+rm(list=ls())
+heights <- read.csv("https://assets.datacamp.com/production/repositories/2610/datasets/c85ede6c205d22049e766bd08956b225c576255b/galton_height.csv", header = TRUE)
+```
+
+
+`@sample_code`
+
+```{r}
+#Define the variable
+ht_child <- ___
+
+#Calculate the mean height
+mchild <- ___
+mchild
+
+#Calculate the standard deviation of heights
+sdchild <- ___
+sdchild
+
+#Determine the probability that a child's height is less than 72 inches
+pr=___(___, mean=___, sd=___)
+pr
+```
+
+
+`@solution`
+
+```{r}
+ht_child <- heights$child_ht
+mchild <- mean(ht_child)
+sdchild <- sd(ht_child)
+pr=pnorm(72,mean=mchild, sd=sdchild)
+```
+
+
+`@sct`
+
+```{r}
+ex() %>% check_object("pr") %>% check_equal()
+success_msg("Well Done! You did the thing")
 ```
 
 
