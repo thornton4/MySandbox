@@ -117,6 +117,69 @@ success_msg("Well Done!")
 ## Insert exercise title here
 
 ```yaml
+type: NormalExercise
+key: f3cc5f9d8c
+xp: 100
+```
+
+Now to try doing things with data frames and what not
+
+`@instructions`
+Access the Data frame "mtcars" and create a vector named "means" that holds the means for "mpg","hp",and "qsec"
+
+`@hint`
+df[row,col] can be used to access a data frame named df with specified rows and columns
+
+`@pre_exercise_code`
+
+```{r}
+rm(list=ls())
+```
+
+
+`@sample_code`
+
+```{r}
+#find the mean of mpg
+mean.mpg=___
+mean.mpg
+
+#find the mean of hp
+mean.hp=___
+mean.hp
+
+#find the mean of qsec
+mean.qsec=___
+mean.qsec
+
+comebine the means
+means=___
+```
+
+
+`@solution`
+
+```{r}
+mean.mpg=mean(mtcars$mpg)
+mean.hp=mean(mtcars$hp)
+mean.qsec=mean(mtcars$qsec)
+means=c(mean.mpg,mean.hp,mean.qsec)
+```
+
+
+`@sct`
+
+```{r}
+ex() %>% check_object("means") %>% check_equal()
+success_msg("Well Done! You have combined named vectors into 1 bigger vector")
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
 type: PureMultipleChoiceExercise
 key: e7cc439bbe
 xp: 50
