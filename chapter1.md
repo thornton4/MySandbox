@@ -279,9 +279,9 @@ rm(list=ls())
 `@sct`
 
 ```{r}
-msg1= "Incorrect ya goob"
-msg2="Never trust me"
-msg3="it wasnt rational to pick this"
-msg4="Nobody expects the spanish inquisition..."
-Ex().has_chosen(4, [msg1, msg2, msg3, msg4])
+msg1 = "Incorrect ya goob"
+msg2 = "Never trust me"
+msg3 = "it wasnt rational to pick this"
+msg4 = "Nobody expects the spanish inquisition..."
+ex().has_chosen(4, [msg1, msg2, msg3, msg4])
 ```
