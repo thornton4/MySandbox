@@ -239,11 +239,11 @@ is it option 2 or the number 2, who will ever know?
 `@possible_answers`
 1. 17
 
-[2]. 14
+[2. 14]
 
 3. 2
 
 `@feedback`
 1. the correct answer is not 17...
-2. success_msg("you got it!")
+2. You got it!
 3. you tried picking 2 huh?
