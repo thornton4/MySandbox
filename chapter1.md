@@ -223,7 +223,7 @@ success_msg("Wow! graphing does work well in this")
 
 ---
 
-## Insert exercise title here
+## Mult choice testing?
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -238,7 +238,10 @@ is it option 2 or the number 2, who will ever know?
 
 `@possible_answers`
 1. 17
-2. 14
+[2.] 14
 3. 2
 
 `@feedback`
+1. incorrect_msg("the correct answer is not 17...")
+2. success_msg("you got it!")
+3. incorrect_msg("you tried picking 2 huh?")
