@@ -250,7 +250,7 @@ is it option 2 or the number 2, who will ever know?
 
 ---
 
-## Insert exercise title here
+## Console'd mult choice
 
 ```yaml
 type: MultipleChoiceExercise
