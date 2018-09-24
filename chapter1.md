@@ -79,26 +79,34 @@ Assign a group of numbers  to a variable using c(…)
 The "mean()" function is useful for finding the mean of a vector
 
 `@pre_exercise_code`
+
 ```{r}
 
 ```
 
+
 `@sample_code`
+
 ```{r}
 x=
 mean.x=
 ```
 
+
 `@solution`
+
 ```{r}
 x=c(2,3,7)
 mean.x=mean(x)
 ```
 
+
 `@sct`
+
 ```{r}
 mean.x=4
 ```
+
 
 ---
 
@@ -113,12 +121,11 @@ xp: 50
 Which of the following is the correct answer if B is the correct answer
 
 `@hint`
-is it option B or the number B, who will ever know?
+is it option 2 or the number 2, who will ever know?
 
 `@possible_answers`
-A - Not this one
-B - Possibly This one
-[C] - B
-D - 100% wrong
+1. 17
+2. 14
+3. 2
 
 `@feedback`
