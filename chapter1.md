@@ -223,7 +223,7 @@ success_msg("Wow! graphing does work well in this")
 
 ---
 
-## Mult choice testing?
+## Pure Mult choice testing?
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -247,3 +247,40 @@ is it option 2 or the number 2, who will ever know?
 - You got it!
 - its not this two...
 - and 4 is forever
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+key: bc5e7d4e7b
+xp: 50
+```
+
+
+
+`@instructions`
+- Not this one
+- Its this one
+- sqrt(24)
+- [the Spanish inquisition]
+
+`@hint`
+Its labeled...
+
+`@pre_exercise_code`
+
+```{r}
+rm(list=ls())
+```
+
+
+`@sct`
+
+```{r}
+msg1= "Incorrect ya goob"
+msg2="Never trust me"
+msg3="it wasnt rational to pick this"
+msg4="Nobody expects the spanish inquisition..."
+```
