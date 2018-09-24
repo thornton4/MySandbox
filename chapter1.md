@@ -3,64 +3,6 @@ title: 'Template Chapter 1'
 description: 'This is a template chapter.'
 ---
 
-## An exercise title written in sentence case
-
-```yaml
-type: NormalExercise
-key: 5a681e3715
-lang: r
-xp: 100
-skills: 1
-```
-
-This is the Context. It should help provide students with the background information needed.
-The Instructions that follow should be in bullet point form with clear guidance for what is expected.
-
-`@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-
-`@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
-
-`@pre_exercise_code`
-```{r}
-# Load datasets and packages here.
-```
-
-`@sample_code`
-```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
-```
-
-`@solution`
-```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
-```
-
-`@sct`
-```{r}
-# Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
-```
-
----
-
 ## Variable names and means
 
 ```yaml
@@ -226,6 +168,56 @@ pr=pnorm(72,mean=mchild, sd=sdchild)
 ```{r}
 ex() %>% check_object("pr") %>% check_equal()
 success_msg("Well Done! You did the thing")
+```
+
+---
+
+## maybe get graphical?
+
+```yaml
+type: NormalExercise
+key: a984d75d4e
+xp: 100
+```
+
+lets see if graphing is a thing
+
+`@instructions`
+use [lm()] to graph mpg vs hp in the mtcars dataframe
+
+`@hint`
+you best know how to do this
+
+`@pre_exercise_code`
+```{r}
+rm(list=ls())
+```
+
+`@sample_code`
+```{r}
+#plot Miles per gallon against Horsepower
+plot(x=___,y=___,pch=19,xlab="Miles per Gallon",ylab="Horsepower",main="Miles per Gallon vs Horsepower")
+legend("topright",legend="Regression Line",lty=3,col="red")
+
+#create a linear model
+MPG.vs.HP=___(___~___,data=___)
+
+#add the model to the graph
+abline(___,lty=3,col="red")
+
+```
+
+`@solution`
+```{r}
+MPG.vs.HP=lm(hp~mpg,data=mtcars)
+plot(x=mtcars$mpg,y=mtcars$hp,pch=19,xlab="Miles per Gallon",ylab="Horsepower",main="Miles per Gallon vs Horsepower")
+abline(MPG.vs.HP,lty=3,col="red")
+legend("topright",legend="Regression Line",lty=3,col="red")
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("MGP.vs.HP") %>% check_equal()
 ```
 
 ---
