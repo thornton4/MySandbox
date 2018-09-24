@@ -110,7 +110,7 @@ key: e7cc439bbe
 xp: 50
 ```
 
-Which of the following is the correct answer if B is the correct answer
+Which of the following is the correct answer if 2 is the correct answer
 
 `@hint`
 is it option 2 or the number 2, who will ever know?
