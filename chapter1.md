@@ -218,6 +218,7 @@ abline(MPG.vs.HP,lty=3,col="red")
 `@sct`
 ```{r}
 ex() %>% check_object("MPG.vs.HP") %>% check_equal()
+success_msg("Wow! graphing does work well in this")
 ```
 
 ---
