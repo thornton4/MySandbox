@@ -85,20 +85,25 @@ The "mean()" function is useful for finding the mean of a vector
 
 `@sample_code`
 ```{r}
-x=
-mean.x=
+#Define Variable x
+x=___
+x
+
+#Define the mean of x
+mean.x=___
+mean.x
 ```
 
 `@solution`
 ```{r}
-x=c(2,3,7)
-mean.x=mean(x)
+solution.x=c(2,3,7)
+solution.mean.x=mean(x)
 ```
 
 `@sct`
 ```{r}
-%>% check_object("x") %>% check_equal(x)
-%>% check_object("mean.x") %>% check_equal(mean.x)
+%>% check_object("x") %>% check_equal(solution.x)
+%>% check_object("mean.x") %>% check_equal(solution.mean.x)
 success_msg("Well done!")
 ```
 
