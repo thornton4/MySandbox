@@ -131,14 +131,11 @@ Access the Data frame "mtcars" and create a vector named "means" that holds the 
 df[row,col] can be used to access a data frame named df with specified rows and columns
 
 `@pre_exercise_code`
-
 ```{r}
 rm(list=ls())
 ```
 
-
 `@sample_code`
-
 ```{r}
 #find the mean of mpg
 mean.mpg=___
@@ -156,9 +153,7 @@ mean.qsec
 means=___
 ```
 
-
 `@solution`
-
 ```{r}
 mean.mpg=mean(mtcars$mpg)
 mean.hp=mean(mtcars$hp)
@@ -166,14 +161,11 @@ mean.qsec=mean(mtcars$qsec)
 means=c(mean.mpg,mean.hp,mean.qsec)
 ```
 
-
 `@sct`
-
 ```{r}
 ex() %>% check_object("means") %>% check_equal()
 success_msg("Well Done! You have combined named vectors into 1 bigger vector")
 ```
-
 
 ---
 
@@ -199,15 +191,12 @@ The Galton data has already been read into a dataset called
 Remember that we can reference a variable, say `var`, from a data set such as `heights`, as `heights$var`.
 
 `@pre_exercise_code`
-
 ```{r}
 rm(list=ls())
 heights <- read.csv("https://assets.datacamp.com/production/repositories/2610/datasets/c85ede6c205d22049e766bd08956b225c576255b/galton_height.csv", header = TRUE)
 ```
 
-
 `@sample_code`
-
 ```{r}
 #Define the variable
 ht_child <- ___
@@ -225,9 +214,7 @@ pr=___(___, mean=___, sd=___)
 pr
 ```
 
-
 `@solution`
-
 ```{r}
 ht_child <- heights$child_ht
 mchild <- mean(ht_child)
@@ -235,14 +222,11 @@ sdchild <- sd(ht_child)
 pr=pnorm(72,mean=mchild, sd=sdchild)
 ```
 
-
 `@sct`
-
 ```{r}
 ex() %>% check_object("pr") %>% check_equal()
 success_msg("Well Done! You did the thing")
 ```
-
 
 ---
 
