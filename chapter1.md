@@ -108,6 +108,7 @@ mean.x
 `@sct`
 ```{r}
 ex() %>% check_object("x") %>% check_equal()
+ex() %>% check_object("mean.x") %>% check_equal()
 success_msg("Well Done!")
 ```
 
