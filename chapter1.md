@@ -237,13 +237,13 @@ Which of the following is the correct answer if 2 is the correct answer
 is it option 2 or the number 2, who will ever know?
 
 `@possible_answers`
-1. 17
-
-[2. 14]
-
-3. 2
+- 1
+- [3]
+- 2
+- 4
 
 `@feedback`
-1. the correct answer is not 17...
-2. You got it!
-3. you tried picking 2 huh?
+- 1 is not correct...
+- You got it!
+- its not this two...
+- and 4 is forever
