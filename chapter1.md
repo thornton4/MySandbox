@@ -97,7 +97,9 @@ mean.x=mean(x)
 
 `@sct`
 ```{r}
-mean.x=6
+if(mean.x!=6){
+  incorrect_msg="The mean of the data set is not correct, make sure you have defined the variable correctly"
+}
 ```
 
 ---
