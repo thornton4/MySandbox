@@ -97,7 +97,7 @@ mean.x=mean(x)
 
 `@sct`
 ```{r}
-mean.x=4
+mean.x=6
 ```
 
 ---
