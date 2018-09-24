@@ -97,9 +97,9 @@ mean.x=mean(x)
 
 `@sct`
 ```{r}
-if(mean.x!=4){
-  incorrect_msg="The mean of the data set is not correct, make sure you have defined the variable correctly"
-}
+%>% check_object("x") %>% check_equal()
+%>% check_object("mean.x") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ---
