@@ -107,8 +107,8 @@ mean.x
 
 `@sct`
 ```{r}
-check_object(name="x",undefined_msg="Please use x as your variable name")
-success_msg("Well done!")
+ex() %>% check_object("x") %>% check_equal()
+success_msg("Well Done!")
 ```
 
 ---
