@@ -102,7 +102,7 @@ mean.x=mean(x)
 
 `@sct`
 ```{r}
-%>% test_object(name="x",undefined_msg="Please use x as your variable name",incorrect_msg="x has not been properly assigned")
+test_object(name="x",undefined_msg="Please use x as your variable name",incorrect_msg="x has not been properly assigned")
 success_msg("Well done!")
 ```
 
