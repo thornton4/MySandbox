@@ -190,7 +190,9 @@ The Galton data has already been read into a dataset called
 
 `@instructions`
 - Define the height of an adult child as a local variable
+
 - Use the function [mean()](https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/mean/) to calculate the mean and the function [sd()](https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/sd/) to calculate the standard deviation
+
 -Use the normal approximation and the function [pnorm()](https://www.rdocumentation.org/packages/stats/versions/3.5.0/topics/Normal/) to determine the probability that a child's height is less than 72 inches.
 
 `@hint`
