@@ -96,14 +96,13 @@ mean.x
 
 `@solution`
 ```{r}
-solution.x=c(2,3,7)
-solution.mean.x=mean(x)
+x=c(2,3,7)
+mean.x=mean(x)
 ```
 
 `@sct`
 ```{r}
-%>% check_object("x") %>% check_equal(solution.x)
-%>% check_object("mean.x") %>% check_equal(solution.mean.x)
+%>% test_object(name="x",undefined_msg="Please use x as your variable name",incorrect_msg="x has not been properly assigned")
 success_msg("Well done!")
 ```
 
