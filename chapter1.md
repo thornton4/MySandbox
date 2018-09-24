@@ -79,34 +79,26 @@ Assign a group of numbers  to a variable using c(…)
 The "mean()" function is useful for finding the mean of a vector
 
 `@pre_exercise_code`
-
 ```{r}
 
 ```
 
-
 `@sample_code`
-
 ```{r}
 x=
 mean.x=
 ```
 
-
 `@solution`
-
 ```{r}
 x=c(2,3,7)
 mean.x=mean(x)
 ```
 
-
 `@sct`
-
 ```{r}
 mean.x=4
 ```
-
 
 ---
 
