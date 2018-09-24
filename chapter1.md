@@ -58,3 +58,50 @@ The Instructions that follow should be in bullet point form with clear guidance 
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: e7dd2640c5
+xp: 100
+```
+
+In this course, if you learn anything, I would be quite impressed, as it has been designed for me to learn the basics of DataCamp
+
+`@instructions`
+Create a variable named "x" that is a vector containing the three numbers: 2,3, and 7. Then, set a variable called "mean.x" to be the mean of this vector.
+
+`@hint`
+To assign a variable use XXXX = YYYY where XXXX is the name of the variable, and YYYY is what you want assigned to that variable
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+x=_____
+mean.x=
+```
+
+
+`@solution`
+
+```{r}
+x=c(2,3,7)
+mean.x=mean(x)
+```
+
+
+`@sct`
+
+```{r}
+mean.x=4
+```
