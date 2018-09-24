@@ -152,7 +152,7 @@ mean.hp
 mean.qsec=___
 mean.qsec
 
-comebine the means
+#combine the means
 means=___
 ```
 
