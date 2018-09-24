@@ -106,3 +106,27 @@ mean.x=mean(x)
 ```{r}
 mean.x=4
 ```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: PureMultipleChoiceExercise
+key: e7cc439bbe
+xp: 50
+```
+
+Which of the following is the correct answer if B is the correct answer
+
+`@hint`
+is it option B or the number B, who will ever know?
+
+`@possible_answers`
+A - Not this one
+B - Possibly This one
+[C] - B
+D - 100% wrong
+
+`@feedback`
