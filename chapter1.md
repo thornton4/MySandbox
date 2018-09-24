@@ -107,7 +107,7 @@ mean.x
 
 `@sct`
 ```{r}
-check_object(name="x",undefined_msg="Please use x as your variable name",incorrect_msg="x has not been properly assigned")
+check_object(name="x",undefined_msg="Please use x as your variable name")
 success_msg("Well done!")
 ```
 
