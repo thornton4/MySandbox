@@ -239,7 +239,7 @@ is it option 2 or the number 2, who will ever know?
 `@possible_answers`
 1. 17
 
-[2. 14]
+2. [14]
 
 3. 2
 
