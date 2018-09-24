@@ -80,7 +80,7 @@ The "mean()" function is useful for finding the mean of a vector
 
 `@pre_exercise_code`
 ```{r}
-
+rm(list=ls())
 ```
 
 `@sample_code`
