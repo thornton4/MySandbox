@@ -96,8 +96,13 @@ mean.x
 
 `@solution`
 ```{r}
+#Define Variable x
 x=c(2,3,7)
+x
+
+#Define the mean of x
 mean.x=mean(x)
+mean.x
 ```
 
 `@sct`
