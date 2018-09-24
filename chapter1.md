@@ -209,15 +209,15 @@ abline(___,lty=3,col="red")
 
 `@solution`
 ```{r}
-MPG.vs.HP=lm(hp~mpg,data=mtcars)
 plot(x=mtcars$mpg,y=mtcars$hp,pch=19,xlab="Miles per Gallon",ylab="Horsepower",main="Miles per Gallon vs Horsepower")
-abline(MPG.vs.HP,lty=3,col="red")
 legend("topright",legend="Regression Line",lty=3,col="red")
+MPG.vs.HP=lm(hp~mpg,data=mtcars)
+abline(MPG.vs.HP,lty=3,col="red")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("MGP.vs.HP") %>% check_equal()
+ex() %>% check_object("MPG.vs.HP") %>% check_equal()
 ```
 
 ---
