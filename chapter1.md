@@ -75,7 +75,8 @@ In this course, if you learn anything, I would be quite impressed, as it has bee
 Create a variable named "x" that is a vector containing the three numbers: 2,3, and 7. Then, set a variable called "mean.x" to be the mean of this vector.
 
 `@hint`
-To assign a variable use XXXX = YYYY where XXXX is the name of the variable, and YYYY is what you want assigned to that variable
+Assign a group of numbers  to a variable using c(…)
+The "mean()" function is useful for finding the mean of a vector
 
 `@pre_exercise_code`
 
@@ -87,7 +88,7 @@ To assign a variable use XXXX = YYYY where XXXX is the name of the variable, and
 `@sample_code`
 
 ```{r}
-x=_____
+x=
 mean.x=
 ```
 
