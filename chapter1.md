@@ -1,6 +1,6 @@
 ---
-title: 'Template Chapter 1'
-description: 'This is a template chapter.'
+title: 'Test Chapter 1'
+description: 'Messing around with differing ways to ask questions'
 ---
 
 ## Variable names and means
