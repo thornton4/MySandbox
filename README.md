@@ -25,15 +25,11 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 >- How to identify and predict fraudulent transactions
 >- How to effectively work with highly imbalanced data
 
-I will Learn how to actually fill this sheet out (with some cool formatting)
-
-> maybe learn how to use this carrot thing
-
->- hopefully help prof frees do some cool stuff
-
-- Maybe learn a thing or 2 myself
-
-- [ ] what this box do
+- [ ] How to use simple functions in r
+- [ ] How to work with data frames within R, and its link to microsoft's Excel
+- [ ] How to create functions for custom purposes
+- [ ] How to plot data in R and create useful and fun graphs
+- [ ] How to clean up data for use in analytics
 
 
 ### 2. What are the learning objectives of the course?
