@@ -24,10 +24,15 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 >
 >- How to identify and predict fraudulent transactions
 >- How to effectively work with highly imbalanced data
+
 I will Learn how to actually fill this sheet out (with some cool formatting)
+
 >maybe learn how to use this carrot thing
+
 >-hopefully help prof frees do some cool stuff
+
 -Maybe learn a thing or 2 myself
+
 [ ] what this box do
 
 
