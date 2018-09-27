@@ -19,18 +19,11 @@ This part of the 'Course Spec' process is designed to help guide you through cou
 
 ### 1. What problem(s) will students learn how to solve? (minimum of 5 problems)
 
-- [ ] Write a list of ideas for problems that the students will encounter in the course.
-> From a course on fraud detection:
->
->- How to identify and predict fraudulent transactions
->- How to effectively work with highly imbalanced data
-
 - [ ] How to use simple functions in r
 - [ ] How to work with data frames within R, and its link to microsoft's Excel
 - [ ] How to create functions for custom purposes
 - [ ] How to plot data in R and create useful and fun graphs
 - [ ] How to clean up data for use in analytics
-
 
 ### 2. What are the learning objectives of the course?
 
