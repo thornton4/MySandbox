@@ -258,7 +258,8 @@ key: bc5e7d4e7b
 xp: 50
 ```
 
-
+Just try and figure out which one of these pointless answers is the right answer. 
+- I am truthfully just testing out the MC with the console!
 
 `@possible_answers`
 - Not this one
