@@ -186,7 +186,7 @@ lets see if graphing is a thing
 use [lm()] to graph mpg vs hp in the mtcars dataframe
 
 `@hint`
-you best know how to do this
+You can use the "lm" function in order to create a linear regression model that attempts to explain y based on x (Y~X)
 
 `@pre_exercise_code`
 ```{r}
@@ -242,7 +242,7 @@ is it option 2 or the number 2, who will ever know?
 - 2
 - 4
 
-`@feedback`
+`@feedbacks`
 - 1 is not correct...
 - You got it!
 - its not this two...
@@ -260,7 +260,7 @@ xp: 50
 
 
 
-`@instructions`
+`@possible_answers`
 - Not this one
 - Its this one
 - sqrt(24)
@@ -270,18 +270,37 @@ xp: 50
 Its labeled...
 
 `@pre_exercise_code`
-
 ```{r}
 rm(list=ls())
 ```
 
-
 `@sct`
-
 ```{r}
 msg1 = "Incorrect ya goob"
 msg2 = "Never trust me"
 msg3 = "it wasnt rational to pick this"
 msg4 = "Nobody expects the spanish inquisition..."
  ex() %>% check_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4))
+```
+
+---
+
+## Testing sequential coding
+
+```yaml
+type: TabExercise
+key: c2cbc72edb
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
 ```
