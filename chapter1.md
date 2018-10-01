@@ -414,12 +414,18 @@ you can still use c(…) to combine vectors!
 
 `@sample_code`
 ```{r}
+a=c(3,5,7)
+b=c(10,14,sqrt(14))
+mean.mtcars=mean(mtcars$mpg)
 v=
 v
 ```
 
 `@solution`
 ```{r}
+a=c(3,5,7)
+b=c(10,14,sqrt(14))
+mean.mtcars=mean(mtcars$mpg)
 v=c(a,b,mean.mtcars)
 v
 ```
