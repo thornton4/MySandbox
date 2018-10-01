@@ -443,11 +443,11 @@ key: a5d49251b0
 xp: 100
 ```
 
-ahhh, so this part totally failed earlier....that would explain a bunch
+Let us build a dataframe, create some modifications, and create some graphs to test the sequential process in DataCamp
 
 `@pre_exercise_code`
 ```{r}
-
+rm(list=ls())
 ```
 
 ***
@@ -455,27 +455,96 @@ ahhh, so this part totally failed earlier....that would explain a bunch
 ```yaml
 type: NormalExercise
 key: 25144f74b6
-xp: 100
+xp: 35
 ```
 
 `@instructions`
-do some stuff here
+Steal the mpg and hp from mtcars and assign them to new variables, namely `mpg` and `hp`
 
 `@hint`
-heres a hint if you are struggling
+use variable name=dataframe$column
 
 `@sample_code`
 ```{r}
-#this be some sample code
+mpg=
+mpg
+
+hp=
+hp
 ```
 
 `@solution`
 ```{r}
-#this is the solution
+mpg=mtcars$mpg
+mpg
+
+hp=mtcars$hp
+hp
 ```
 
 `@sct`
 ```{r}
-ex()
-success_msg("wow this needed to happen earlier")
+ex() %>% check_object("mpg") %>% check_equal()
+%>% check_object("hp") %>% check_equal()
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 9e906bbc9c
+xp: 35
+```
+
+`@instructions`
+Now let us put these two assigned variables into a dataframe called df1
+
+`@hint`
+Use the command `data.frame()` to assign variables to be columns in a data frame
+
+`@sample_code`
+```{r}
+df1=
+df1
+```
+
+`@solution`
+```{r}
+df1=data.frame(mpg,hp)
+df1
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("df1") %>% check_equal()
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 393579f265
+xp: 30
+```
+
+`@instructions`
+now let us plot mpg against hp using the dataframe
+
+`@hint`
+use plot(x=,y=) to plot two variable names
+
+`@sample_code`
+```{r}
+plot(x=___,y=___,main="Impact of miles per gallon on Horsepower",xlab="___",ylab="___",pch=19)
+```
+
+`@solution`
+```{r}
+plot(x=df1$mpg,y=df1$hp,main="Impact of miles per gallon on Horsepower",xlab="Miles per Gallon",ylab="Horsepower",pch=19)
+```
+
+`@sct`
+```{r}
+
 ```
