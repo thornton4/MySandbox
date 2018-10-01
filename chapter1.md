@@ -298,7 +298,7 @@ lets try combining things using `c(…)`
 
 `@pre_exercise_code`
 ```{r}
-rm(list=ls())
+
 ```
 
 ***
