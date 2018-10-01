@@ -330,7 +330,6 @@ a
 `@sct`
 ```{r}
 ex() %>% check_object("a") %>% check_equal()
-success_msg("You did it!!")
 ```
 
 ***
@@ -363,7 +362,6 @@ b
 `@sct`
 ```{r}
 ex() %>% check_object("b") %>% check_equal ()
-success_msg("You did it again!")
 ```
 
 ***
@@ -395,7 +393,6 @@ mean.mtcars
 `@sct`
 ```{r}
 ex() %>% check_object("mean.mtcars") %>% check_equal()
-success_msg("wow you're getting good at this!")
 ```
 
 ***
