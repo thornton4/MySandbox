@@ -342,7 +342,7 @@ xp: 20
 ```
 
 `@instructions`
-combine the numbers 10,14, and sqrt(14) into a vector named y
+combine the numbers 10,14, and sqrt(14) into a vector named b
 
 `@hint`
 you can run operators inside of c(…)
@@ -350,19 +350,19 @@ make sure all "(" have a matching ")".
 
 `@sample_code`
 ```{r}
-y=
-y
+b=
+b
 ```
 
 `@solution`
 ```{r}
-y=c(10,14,sqrt(14))
-y
+b=c(10,14,sqrt(14))
+b
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("y") %>% check_equal ()
+ex() %>% check_object("b") %>% check_equal ()
 success_msg("You did it again!")
 ```
 
