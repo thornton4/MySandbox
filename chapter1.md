@@ -362,7 +362,7 @@ y
 
 `@sct`
 ```{r}
-ex() %>% check_object("Y") %>% check_equal ()
+ex() %>% check_object("y") %>% check_equal ()
 success_msg("You did it again!")
 ```
 
