@@ -548,3 +548,41 @@ plot(x=df1$mpg,y=df1$hp,main="Impact of miles per gallon on Horsepower",xlab="Mi
 ```{r}
 
 ```
+
+---
+
+## Custom Data?
+
+```yaml
+type: NormalExercise
+key: 2716ac02f4
+xp: 100
+```
+
+Lets see how well uploading a custom set of data works in here
+
+`@instructions`
+just take a look at `NHL` and see if it works
+
+`@hint`
+I have no clue how to give a hint for this yet
+
+`@pre_exercise_code`
+```{r}
+NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets/37e2c951ee9242367a35a49b176957189f9bb31d/NHL.2017.xlsx", header = TRUE)
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
