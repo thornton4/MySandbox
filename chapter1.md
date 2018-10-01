@@ -295,7 +295,7 @@ xp: 100
 ```
 
 So, here is what we are going to do, we are going to try build a sequential coding exercise that consists of 3 steps needed to get the desired outcome:
-1 - View the dataframe `mtcars` and create a subset of mtcars named *mtcars.sub1* that consists of 
+1 - View the dataframe `mtcars` and create a subset of mtcars named *mtcars.sub1*
 
 `@pre_exercise_code`
 ```{r}
