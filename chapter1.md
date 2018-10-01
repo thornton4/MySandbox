@@ -310,26 +310,26 @@ xp: 20
 ```
 
 `@instructions`
-combine the numbers 3,5,7 into a vector named x
+combine the numbers 3,5,7 into a vector named a
 
 `@hint`
-use x=c(___) to fill it in
+use a=c(___) to fill it in
 
 `@sample_code`
 ```{r}
-x=
-x
+a=
+a
 ```
 
 `@solution`
 ```{r}
-x=c(3,5,7)
-x
+a=c(3,5,7)
+a
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("x") %>% check_equal()
+ex() %>% check_object("a") %>% check_equal()
 success_msg("You did it!!")
 ```
 
