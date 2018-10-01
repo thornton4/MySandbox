@@ -435,7 +435,7 @@ success_msg("You have mastered using c(...)")
 
 ---
 
-## Insert exercise title here
+## Testing sequential
 
 ```yaml
 type: TabExercise
