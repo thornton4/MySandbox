@@ -433,7 +433,7 @@ v
 `@sct`
 ```{r}
 ex() %>% check_object("v") %>% check_equal()
-success_msg(You have mastered using c(...))
+success_msg(You have mastered using c!)
 ```
 
 ***
