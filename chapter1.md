@@ -286,29 +286,6 @@ msg4 = "Nobody expects the spanish inquisition..."
 
 ---
 
-## Testing sequential coding
-
-```yaml
-type: TabExercise
-key: c2cbc72edb
-xp: 100
-```
-
-So, here is what we are going to do, we are going to try build a sequential coding exercise that consists of 3 steps needed to get the desired outcome:
-1 - View the dataframe `mtcars` and create a subset of mtcars named *mtcars.sub1*
-
-`@pre_exercise_code`
-```{r}
-rm(list=ls())
-```
-
-`@sample_code`
-```{r}
-
-```
-
----
-
 ## Iterative testing
 
 ```yaml
