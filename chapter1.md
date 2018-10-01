@@ -447,7 +447,7 @@ Let us build a dataframe, create some modifications, and create some graphs to t
 
 `@pre_exercise_code`
 ```{r}
-rm(list=ls())
+
 ```
 
 ***
