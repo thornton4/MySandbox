@@ -575,14 +575,15 @@ NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets
 `@sample_code`
 ```{r}
 
+x=1
 ```
 
 `@solution`
 ```{r}
-
+x=1
 ```
 
 `@sct`
 ```{r}
-
+ex() %>% check_object("x") %>% check_equal()
 ```
