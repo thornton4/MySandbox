@@ -407,7 +407,7 @@ xp: 20
 ```
 
 `@instructions`
-now see what happens when you combine all of the vectors you have made! put x,y, and mean.mtcars into a vector, `v`.
+now see what happens when you combine all of the vectors you have made! put a,b, and mean.mtcars into a vector, `v`.
 
 `@hint`
 you can still use c(…) to combine vectors!
@@ -420,7 +420,7 @@ v
 
 `@solution`
 ```{r}
-v=c(x,y,mean.mtcars)
+v=c(a,b,mean.mtcars)
 v
 ```
 
