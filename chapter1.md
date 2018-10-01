@@ -490,11 +490,6 @@ ex() %>% check_object("hp") %>% check_equal()
 
 ***
 
-```{r}
-mpg=mtcars$mpg
-hp=mtcars$hp
-```
-
 ```yaml
 type: NormalExercise
 key: 9e906bbc9c
