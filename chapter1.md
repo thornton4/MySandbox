@@ -432,3 +432,50 @@ v
 ex() %>% check_object("v") %>% check_equal()
 success_msg("You have mastered using c(...)")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: a5d49251b0
+xp: 100
+```
+
+ahhh, so this part totally failed earlier....that would explain a bunch
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 25144f74b6
+xp: 100
+```
+
+`@instructions`
+do some stuff here
+
+`@hint`
+heres a hint if you are struggling
+
+`@sample_code`
+```{r}
+#this be some sample code
+```
+
+`@solution`
+```{r}
+#this is the solution
+```
+
+`@sct`
+```{r}
+ex()
+success_msg("wow this needed to happen earlier")
+```
