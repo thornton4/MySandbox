@@ -306,3 +306,149 @@ rm(list=ls())
 ```{r}
 
 ```
+
+---
+
+## Iterative testing
+
+```yaml
+type: BulletExercise
+key: 53cda0b8d5
+xp: 100
+```
+
+lets try combining things using `c(…)`
+
+`@pre_exercise_code`
+```{r}
+rm(list=ls())
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b865ae6da5
+xp: 25
+```
+
+`@instructions`
+combine the numbers 3,5,7 into a vector named x
+
+`@hint`
+use x=c(___) to fill it in
+
+`@sample_code`
+```{r}
+x=
+x
+```
+
+`@solution`
+```{r}
+x=c(3,5,7)
+x
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("x") %>% check_equal()
+success_msg("You did it!!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: bd4bc45afa
+xp: 25
+```
+
+`@instructions`
+combine the numbers 10,14, and sqrt(14) into a vector named y
+
+`@hint`
+you can run operators inside of c(…)
+make sure all "(" have a matching ")".
+
+`@sample_code`
+```{r}
+y=
+y
+```
+
+`@solution`
+```{r}
+y=c(10,14,sqrt(14))
+y
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("Y") %>% check_equal ()
+success_msg("You did it again!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d346bfe0f8
+xp: 25
+```
+
+`@instructions`
+create a vector `mean.mtcars` that is just the mean of mpg in mt.cars
+
+`@hint`
+make sure to use $ to specify which column of the dataframe you want to reference. type mtcars to see the entirety of mtcars, or head(mtcars) for the first 6 rows
+
+`@sample_code`
+```{r}
+mean.mtcars=
+mean.mtcars
+```
+
+`@solution`
+```{r}
+mean.mtcars=mean(mtcars$mpg)
+mean.mtcars
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("mean.mtcars") %>% check_equal()
+success_msg("wow you're getting good at this!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 2282c7df4e
+xp: 25
+```
+
+`@instructions`
+now see what happens when you combine all of the vectors you have made! put x,y, and mean.mtcars into a vector, `v`.
+
+`@hint`
+you can still use c(…) to combine vectors!
+
+`@sample_code`
+```{r}
+v=
+v
+```
+
+`@solution`
+```{r}
+v=c(x,y,mean.mtcars)
+v
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("v") %>% check_equal()
+success_msg(You have mastered using c(...))
+```
