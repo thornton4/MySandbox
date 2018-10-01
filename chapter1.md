@@ -306,7 +306,7 @@ rm(list=ls())
 ```yaml
 type: NormalExercise
 key: b865ae6da5
-xp: 25
+xp: 20
 ```
 
 `@instructions`
@@ -338,7 +338,7 @@ success_msg("You did it!!")
 ```yaml
 type: NormalExercise
 key: bd4bc45afa
-xp: 25
+xp: 20
 ```
 
 `@instructions`
@@ -371,7 +371,7 @@ success_msg("You did it again!")
 ```yaml
 type: NormalExercise
 key: d346bfe0f8
-xp: 25
+xp: 20
 ```
 
 `@instructions`
@@ -403,7 +403,7 @@ success_msg("wow you're getting good at this!")
 ```yaml
 type: NormalExercise
 key: 2282c7df4e
-xp: 25
+xp: 20
 ```
 
 `@instructions`
@@ -428,4 +428,33 @@ v
 ```{r}
 ex() %>% check_object("v") %>% check_equal()
 success_msg(You have mastered using c(...))
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 60a02eac4f
+xp: 20
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
