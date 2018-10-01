@@ -485,7 +485,7 @@ hp
 `@sct`
 ```{r}
 ex() %>% check_object("mpg") %>% check_equal()
-%>% check_object("hp") %>% check_equal()
+ex() %>% check_object("hp") %>% check_equal()
 ```
 
 ***
