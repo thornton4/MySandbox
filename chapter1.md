@@ -569,7 +569,7 @@ I have no clue how to give a hint for this yet
 
 `@pre_exercise_code`
 ```{r}
-NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets/37e2c951ee9242367a35a49b176957189f9bb31d/NHL.2017.xlsx",row.names=NULL)
+NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets/36f12ab453e47bbf916a8d3524ea03acc6971142/NHL.2017.csv",row.names=NULL,header=TRUE)
 ```
 
 `@sample_code`
