@@ -490,7 +490,6 @@ ex() %>% check_object("hp") %>% check_equal()
 
 ***
 
-'@pre_exercise_code`
 ```{r}
 mpg=mtcars$mpg
 hp=mtcars$hp
