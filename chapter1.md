@@ -562,10 +562,10 @@ xp: 100
 Lets see how well uploading a custom set of data works in here
 
 `@instructions`
-just take a look at `NHL` and see if it works
+find `p.max`, which is the maximum number of penalty minutes served in the 2017/18 NHL season. The number of penalty minutes is found under `pim` in the dataframe `NHL`
 
 `@hint`
-I have no clue how to give a hint for this yet
+use `max()`
 
 `@pre_exercise_code`
 ```{r}
@@ -574,13 +574,12 @@ NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets
 
 `@sample_code`
 ```{r}
-
-x=1
+p.max=
 ```
 
 `@solution`
 ```{r}
-x=1
+p.max=max(NHL$pim)
 ```
 
 `@sct`
