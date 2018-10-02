@@ -584,5 +584,6 @@ p.max=max(NHL$pim)
 
 `@sct`
 ```{r}
-ex() %>% check_object("x") %>% check_equal()
+ex() %>% check_object("p.max") %>% check_equal()
+success_msg("wow, using custom built dataframes imported from a CSV works well!")
 ```
