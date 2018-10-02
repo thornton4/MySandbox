@@ -606,3 +606,32 @@ Let us try working out a sequential problem where we take a look at NHL.
 rm(list=ls())
 NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets/36f12ab453e47bbf916a8d3524ea03acc6971142/NHL.2017.csv",row.names=NULL,header=TRUE)
 ```
+
+***
+
+```yaml
+type: NormalExercise
+key: 15ebc30f8b
+xp: 100
+```
+
+`@instructions`
+Go from NHL to NHL.1, which should be a subset of NHL containing just player names, Goals, Assists, and Shots,
+
+`@hint`
+remember that for a dataframe `df`, we can access specific rows and columns via df[rows,columns]
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
