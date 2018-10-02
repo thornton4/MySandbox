@@ -242,7 +242,7 @@ is it option 2 or the number 2, who will ever know?
 - 2
 - 4
 
-`@feedbacks`
+`@feedback`
 - 1 is not correct...
 - You got it!
 - its not this two...
