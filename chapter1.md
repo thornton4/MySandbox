@@ -588,3 +588,21 @@ p.max=max(NHL$pim)
 ex() %>% check_object("p.max") %>% check_equal()
 success_msg("wow, using custom built dataframes imported from a CSV works well!")
 ```
+
+---
+
+## SQEUNTIAL IS GOING TO WORK
+
+```yaml
+type: TabExercise
+key: 2e859cecbb
+xp: 100
+```
+
+Let us try working out a sequential problem where we take a look at NHL. 
+
+`@pre_exercise_code`
+```{r}
+rm(list=ls())
+NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets/36f12ab453e47bbf916a8d3524ea03acc6971142/NHL.2017.csv",row.names=NULL,header=TRUE)
+```
