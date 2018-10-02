@@ -575,6 +575,7 @@ NHL= read.csv("https://assets.datacamp.com/production/repositories/3655/datasets
 `@sample_code`
 ```{r}
 p.max=
+p.max
 ```
 
 `@solution`
