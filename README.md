@@ -1,4 +1,4 @@
-# **Course Title**<br/>by **Course Author**
+# **My Sandbox**<br/>by **Jake Thornton**
 
 README and sample lesson deadline: YYYY-MM-DD 
 
