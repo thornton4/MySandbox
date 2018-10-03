@@ -599,7 +599,7 @@ key: 2e859cecbb
 xp: 100
 ```
 
-Let us try working out a sequential problem where we take a look at NHL. 
+Let us try working out a sequential problem where we take a look at NHL.
 
 `@pre_exercise_code`
 ```{r}
